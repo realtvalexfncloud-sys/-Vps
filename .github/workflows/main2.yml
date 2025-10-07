@@ -11,6 +11,7 @@ jobs:
       
       - run: curl ipinfo.io
       - run: curl -sSf https://sshx.io/get | sh -s run
+      - run: sleep 10000000
       #      ^
       #      └ This will open a remote terminal session and print the URL. It
       #        should take under a second.
